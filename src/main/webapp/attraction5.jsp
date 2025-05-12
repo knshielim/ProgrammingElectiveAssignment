@@ -9,8 +9,12 @@
 	<body>
 	    <h1>Lake Toba</h1>
 	    <img src="images/toba.jpg" alt="Lake Toba">
+	    <h4><i>The largest volcanic lake in the world, nestled in North Sumatra.</i></h4>
 	    <p>
-	    Lake Toba, situated in North Sumatra, is the largest volcanic lake in the world. Formed by a massive supervolcanic eruption around 75,000 years ago, the lake spans over 1,100 square kilometers and reaches depths of up to 500 meters. At its center lies Samosir Island, a cultural heartland of the Batak people. Tourists can enjoy scenic boat rides, explore traditional Batak villages, soak in hot springs, and admire the tranquil natural surroundings.
+	    	Lake Toba, situated in North Sumatra, is the largest volcanic lake in the world. 
+	    	Formed by a massive supervolcanic eruption around 75,000 years ago, the lake spans over 1,100 square kilometers and reaches depths of up to 500 meters. 
+	    	At its center lies Samosir Island, a cultural heartland of the Batak people. 
+	    	Tourists can enjoy scenic boat rides, explore traditional Batak villages, soak in hot springs, and admire the tranquil natural surroundings.
 		</p>
 	    <a href="home.jsp">Back to Home</a>
 	</body>
