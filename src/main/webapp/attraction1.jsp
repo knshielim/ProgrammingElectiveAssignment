@@ -10,13 +10,7 @@
 	    <h1>Borobudur Temple</h1>
 	    <img src="images/borobudur.jpg" alt="Borobudur Temple">
 	    <p>
-	    Borobudur, also transcribed Barabudur (Indonesian: Candi Borobudur), is a 9th-century Mahayana Buddhist temple in Magelang Regency, near the city of Magelang and the town of Muntilan, in Central Java, Indonesia.
-	    <br /><br />
-		Constructed of gray andesite-like stone, the temple consists of nine stacked platforms, six square and three circular, topped by a central dome. It is decorated with 2,672 relief panels and originally 504 Buddha statues. The central dome is surrounded by 72 Buddha statues, each seated inside a perforated stupa. The monument guides pilgrims through an extensive system of stairways and corridors with 1,460 narrative relief panels on the walls and the balustrades. Borobudur has one of the world's most extensive collections of Buddhist reliefs.
-		<br /><br />
-		Built during the reign of the Sailendra Dynasty, the temple design follows Javanese Buddhist architecture, which blends the Indonesian indigenous tradition of ancestor worship and the Buddhist concept of attaining nirvāṇa. The monument is a shrine to the Buddha and a place for Buddhist pilgrimage. Evidence suggests that Borobudur was constructed in the 8th century and subsequently abandoned following the 14th-century decline of Hindu kingdoms in Java and the Javanese conversion to Islam. Worldwide knowledge of its existence was sparked in 1814 by Sir Thomas Stamford Raffles, then the British ruler of Java, who was advised of its location by native Indonesians. Borobudur has since been preserved through several restorations. The largest restoration project was completed in 1983 by the Indonesian government and UNESCO, followed by the monument's listing as a UNESCO World Heritage Site.
-		<br /><br />
-		Borobudur is the largest Buddhist temple in the world, and ranks with Bagan in Myanmar and Angkor Wat in Cambodia as one of the great archeological sites of Southeast Asia. Borobudur remains popular for pilgrimage, with Buddhists in Indonesia celebrating Vesak Day at the monument. Among Indonesia's tourist attractions, Borobudur is the most-visited monument.
+	    Borobudur Temple is the world’s largest Buddhist temple and a UNESCO World Heritage Site located in Central Java, Indonesia. Constructed in the 9th century during the reign of the Sailendra Dynasty, the temple is a stunning example of Mahayana Buddhist architecture. It is decorated with over 2,600 relief panels and 504 Buddha statues, making it one of the most intricately designed ancient structures in the world. Visitors can climb to the top of the temple for panoramic views of the surrounding hills and lush forests.
 		</p>
 	    <a href="home.jsp">Back to Home</a>
 	</body>
