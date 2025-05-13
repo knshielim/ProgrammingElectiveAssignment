@@ -5,6 +5,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Attractions - Halabo Indonesia Tour</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 	<body>
 		<jsp:include page="header.jsp"/>
@@ -37,14 +38,14 @@
 		    </div>
 		    <div class="attraction-card">
 		        <a href="attraction5.jsp">
-		            <img src="images/tobalake.jpg" alt="Lake Toba">
+		            <img src="images/toba.jpg" alt="Lake Toba">
 		            <h3>Lake Toba</h3>
 		        </a>
 		    </div>
 		    <div class="attraction-card">
 		        <a href="attraction6.jsp">
-		            <img src="images/thousandislands.jpg" alt="Pulau Seribu">
-		            <h3>Pulau Seribu</h3>
+		            <img src="images/pulauseribu.jpg" alt="Pulau Seribu">
+		            <h3>Thousand Islands</h3>
 		        </a>
 		    </div>
 		    <div class="attraction-card">

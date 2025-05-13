@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+.attractions {
+	
+	
+	
+	
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 4px solid #243c96;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    position: relative;
+    overflow: hidden;
+    display: flex;            
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    /*border: 4px solid #ff6b00;*/
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    object-position: center;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+    color: #ff4d00;
+    font-size: 1.2rem;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.card a {
+    margin-top: auto;
+    background-color: #0077cc;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+    background-color: #005fa3;
+}
+
+
+
+/*====================================== attraction.jsp ================================*/
+
+.attractions-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+
+    grid-template-rows: repeat(5, auto);
+    gap: 20px;
+
+    max-width: 900px;  
+    margin: 40px auto;  
+    padding: 0 20px;
+}
+
+
+.attraction-card {
+    background-color: #ffffff;
+    border: 4px solid #243c96;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.attraction-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+
+.attraction-card img {
+    width: 100%;
+    height: 200px;          
+    object-fit: cover;    
+    object-position: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+
+.attraction-card h3 {
+    margin: 0 0 10px;
+    color: #ff4d00;
+    font-size: 1.2rem;
+}
+
+
+.attraction-card a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.attraction-card a h3 {
+    margin-top: auto; 
+}
+
+
+.attraction-card a p {
+    margin-top: 8px;
+    color: #333;
+    font-size: 0.95rem;
+}
