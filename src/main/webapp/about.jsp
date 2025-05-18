@@ -10,7 +10,7 @@
 		<jsp:include page="header.jsp"/>
 
 		<div class="about-container">
-		    <h2>About Halabo Indonesia Tour</h2>
+		    <h2>About Us</h2>
 			<img src="images/indonesia.jpg" alt="Indonesia">
 		    <p>
 		        Welcome to <strong>Halabo Indonesia Tour</strong> – your virtual gateway to exploring the rich beauty and culture of Indonesia. 
@@ -66,7 +66,8 @@
 				<li><strong>Personalization</strong> – Every tour is tailored to your pace, passion, and purpose.</li>
 				<li><strong>Innovation</strong> – We embrace creativity and technology to elevate the travel experience.</li>
 				<li><strong>Community Support</strong> – We partner with local guides, artisans, and businesses to ensure tourism benefits local communities.</li>
-			</ul>>
+			</ul>
+		</div>
 			
 		<jsp:include page="footer.jsp"/>
 	</body>
