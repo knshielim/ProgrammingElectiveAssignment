@@ -7,8 +7,10 @@
 		<title>Raja Ampat - Halabo Indonesia Tour</title>
 	</head>
 	<body>
+		<jsp:include page="header.jsp"/>
+		
 	    <h1>Raja Ampat</h1>
-	    <img src="images/rajaampat.jpg" alt="Raja Ampat">
+	    <img src="images/rajaampat.jpg" clas="img-size" alt="Raja Ampat">
 	    <h4><i>A diver’s paradise with stunning marine biodiversity.</i></h4>
 	    <p>
 	    	Raja Ampat, located in West Papua, is an archipelago comprising over 1,500 islands and cays. 
@@ -17,5 +19,7 @@
 	    	The islands also feature lush jungles and limestone karsts, offering adventure seekers plenty to explore both above and below the waterline.
 		</p>
 	    <a href="home.jsp">Back to Home</a>
+	    
+	    <jsp:include page="footer.jsp"/>
 	</body>
 </html>

@@ -7,8 +7,10 @@
 		<title>Bali Island - Halabo Indonesia Tour</title>
 	</head>
 	<body>
+		<jsp:include page="header.jsp"/>
+		
 	    <h1>Bali Island</h1>
-	    <img src="images/bali.jpg" alt="Bali Island">
+	    <img src="images/bali.jpg" clas="img-size" alt="Bali Island">
 	    <h4><i>Beautiful beaches, temples, and a unique spiritual vibe.</i></h4>
 	    <p>
 		    Bali is Indonesia’s most popular tourist island, known for its breathtaking beaches, vibrant culture, and picturesque rice terraces. 
@@ -17,5 +19,7 @@
 		    With its rich artistic heritage and spiritual atmosphere, Bali provides an unforgettable travel experience for every kind of traveler.
 		</p>
 	    <a href="home.jsp">Back to Home</a>
+	    
+	    <jsp:include page="footer.jsp"/>
 	</body>
 </html>

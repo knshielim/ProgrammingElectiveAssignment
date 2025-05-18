@@ -7,8 +7,10 @@
 		<title>Borobudur Temple - Halabo Indonesia Tour</title>
 	</head>
 	<body>
+		<jsp:include page="header.jsp"/>
+		
 	    <h1>Borobudur Temple</h1>
-	    <img src="images/borobudur.jpg" alt="Borobudur Temple">
+	    <img src="images/borobudur.jpg" clas="img-size" alt="Borobudur Temple">
 	    <h4><i>The world’s largest Buddhist temple, rich with ancient history.</i></h4>
 	    <p>
 	    	Borobudur Temple is the world’s largest Buddhist temple and a UNESCO World Heritage Site located in Central Java, Indonesia. 
@@ -17,5 +19,7 @@
 	    	Visitors can climb to the top of the temple for panoramic views of the surrounding hills and lush forests.
 		</p>
 	    <a href="home.jsp">Back to Home</a>
+	    
+	    <jsp:include page="footer.jsp"/>
 	</body>
 </html>

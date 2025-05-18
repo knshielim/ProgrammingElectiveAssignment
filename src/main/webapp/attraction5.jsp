@@ -7,8 +7,10 @@
 		<title>Lake Toba - Halabo Indonesia Tour</title>
 	</head>
 	<body>
+		<jsp:include page="header.jsp"/>
+		
 	    <h1>Lake Toba</h1>
-	    <img src="images/toba.jpg" alt="Lake Toba">
+	    <img src="images/toba.jpg" clas="img-size" alt="Lake Toba">
 	    <h4><i>The largest volcanic lake in the world, nestled in North Sumatra.</i></h4>
 	    <p>
 	    	Lake Toba, situated in North Sumatra, is the largest volcanic lake in the world. 
@@ -17,5 +19,7 @@
 	    	Tourists can enjoy scenic boat rides, explore traditional Batak villages, soak in hot springs, and admire the tranquil natural surroundings.
 		</p>
 	    <a href="home.jsp">Back to Home</a>
+	    
+	    <jsp:include page="footer.jsp"/>
 	</body>
 </html>

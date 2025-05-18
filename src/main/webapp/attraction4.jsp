@@ -7,8 +7,10 @@
 		<title>Mount Bromo - Halabo Indonesia Tour</title>
 	</head>
 	<body>
+		<jsp:include page="header.jsp"/>
+		
 	    <h1>Mount Bromo</h1>
-	    <img src="images/bromo.jpg" alt="Mount Bromo">
+	    <img src="images/bromo.jpg" clas="img-size" alt="Mount Bromo">
 	    <h4><i>Witness a sunrise over one of Indonesia’s iconic volcanoes.</i></h4>
 	    <p>
 	    	Mount Bromo, located in East Java, is one of Indonesia's most iconic volcanoes. 
@@ -18,5 +20,7 @@
 	    	Bromo's otherworldly landscape makes it a must-visit for nature lovers and photographers.
 		</p>
 	    <a href="home.jsp">Back to Home</a>
+	    
+	    <jsp:include page="footer.jsp"/>
 	</body>
 </html>
