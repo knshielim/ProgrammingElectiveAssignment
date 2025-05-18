@@ -10,7 +10,7 @@
 		<jsp:include page="header.jsp"/>
 		
 	    <h1>Komodo Island</h1>
-	    <img src="images/komodo.jpg" clas="img-size" alt="Komodo Island">
+	    <img src="images/komodo.jpg" class="img-size" alt="Komodo Island">
 	    <h4><i>Home to the world-famous Komodo dragons and vibrant marine life.</i></h4>
 	    <p>
 	    	Komodo Island is part of the Komodo National Park and is globally known as the natural habitat of the Komodo dragon, the largest lizard on Earth. 

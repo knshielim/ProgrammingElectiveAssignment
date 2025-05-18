@@ -10,7 +10,7 @@
 		<jsp:include page="header.jsp"/>
 		
 	    <h1>Labuan Bajo</h1>
-	    <img src="images/labuanbajo.jpg" clas="img-size" alt="Labuan Bajo">
+	    <img src="images/labuanbajo.jpg" class="img-size" alt="Labuan Bajo">
 	    <h4><i>A charming harbor town and gateway to Komodo National Park.</i></h4>
 	    <p>
 			Labuan Bajo is a charming port town located on the western tip of Flores Island. 

@@ -1,20 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="styles.css">
-	</head>
-	<body>
-		<div class="header"> 
-			<h2>Halabo Indonesia Tour</h2>
-			<nav>
-		        <a href="home.jsp">Home</a>
-		        <a href="about.jsp">About</a>
-		        <a href="attractions.jsp">Attractions</a>
-		        <a href="contact.jsp">Contact Us</a>
-		    </nav>
-		</div>
-	</body>
-</html>
+<div class="header"> 
+	<div class="logo">
+		<img src="images/Halab.jpg" alt="Halabo Logo">
+      		<span>Halabo</span>
+	</div>
+	<ul class="nav-links">
+        <li><a href="home.jsp">Home</a></li>
+        <li><a href="about.jsp">About</a></li>
+        <li><a href="attractions.jsp">Attractions</a></li>
+    </ul>
+    <a href="contact.jsp" class="contact-btn">Contact Us</a>
+	
+</div>

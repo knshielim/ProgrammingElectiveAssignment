@@ -5,10 +5,24 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Home - Halabo Indonesia Tour</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/styles.css">
 	</head>
 	<body>
 		<jsp:include page="header.jsp"/>
+		
+		<section class="hero">
+		    <div class="hero-text">
+		        <h1>Making Indonesia <br>Your Playground</h1>
+		        <p>
+		            Discover the magic of Indonesia with custom adventures, cultural journeys, and stunning escapes.<br>
+		            Let Halabo Tour craft your dream travel experience.
+		        </p>
+		        <a href="attractions.jsp" class="hero-btn">Explore Now</a>
+		    </div>
+		    <div class="hero-image">
+		        <img src="images/travel.jpg" alt="Traveler exploring Indonesia">
+		    </div>
+		</section>
 		
 		<h1>Welcome to Halabo Indonesia Tour</h1>
 		<img src="images/travel.jpg" alt="Travel">
@@ -103,7 +117,7 @@
 		    
 		    <br /> <br />
 		    
-			<a href="attractions.jsp">Find more attractions here!</a>
+			<a href="attractions.jsp" class="hero-btn">Find more attractions here!</a>
 		</div>
 		
 		<jsp:include page="footer.jsp"/>

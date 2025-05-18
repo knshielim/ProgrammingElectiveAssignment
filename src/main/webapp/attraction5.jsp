@@ -10,7 +10,7 @@
 		<jsp:include page="header.jsp"/>
 		
 	    <h1>Lake Toba</h1>
-	    <img src="images/toba.jpg" clas="img-size" alt="Lake Toba">
+	    <img src="images/toba.jpg" class="img-size" alt="Lake Toba">
 	    <h4><i>The largest volcanic lake in the world, nestled in North Sumatra.</i></h4>
 	    <p>
 	    	Lake Toba, situated in North Sumatra, is the largest volcanic lake in the world. 
