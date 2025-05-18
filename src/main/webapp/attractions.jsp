@@ -14,62 +14,52 @@
 		<div class="attractions-grid">
 		    <div class="attraction-card">
 		        <a href="attraction1.jsp">
-		            <img src="images/borobudur.jpg" alt="Borobudur Temple">
-		            <h3>Borobudur Temple</h3>
+		            <img src="images/borobudur1.jpg" alt="Borobudur Temple">
 		        </a>
 		    </div>
 		    <div class="attraction-card">
 		        <a href="attraction2.jsp">
-		            <img src="images/bali.jpg" alt="Bali Island">
-		            <h3>Bali Island</h3>
+		            <img src="images/bali2.jpg" alt="Bali Island">
 		        </a>
 		    </div>
 		    <div class="attraction-card">
 		        <a href="attraction3.jsp">
-		            <img src="images/rajaampat.jpg" alt="Raja Ampat">
-		            <h3>Raja Ampat</h3>
+		            <img src="images/rajaampat3.jpg" alt="Raja Ampat">
 		        </a>
 		    </div>
 		    <div class="attraction-card">
 		        <a href="attraction4.jsp">
-		            <img src="images/bromo.jpg" alt="Mount Bromo">
-		            <h3>Mount Bromo</h3>
+		            <img src="images/bromo4.jpg" alt="Mount Bromo">
 		        </a>
 		    </div>
 		    <div class="attraction-card">
 		        <a href="attraction5.jsp">
-		            <img src="images/toba.jpg" alt="Lake Toba">
-		            <h3>Lake Toba</h3>
+		            <img src="images/toba5.jpg" alt="Lake Toba">
 		        </a>
 		    </div>
 		    <div class="attraction-card">
 		        <a href="attraction6.jsp">
-		            <img src="images/pulauseribu.jpg" alt="Pulau Seribu">
-		            <h3>Thousand Islands</h3>
+		            <img src="images/pulauseribu6.jpg" alt="Pulau Seribu">
 		        </a>
 		    </div>
 		    <div class="attraction-card">
 		        <a href="attraction7.jsp">
-		            <img src="images/monas.jpg" alt="Monas">
-		            <h3>Monas (National Monument)</h3>
+		            <img src="images/monas7.jpg" alt="Monas">
 		        </a>
 		    </div>
 		    <div class="attraction-card">
 		        <a href="attraction8.jsp">
-		            <img src="images/komodo.jpg" alt="Komodo Island">
-		            <h3>Komodo Island</h3>
+		            <img src="images/komodo8.jpg" alt="Komodo Island">
 		        </a>
 		    </div>
 		    <div class="attraction-card">
 		        <a href="attraction9.jsp">
-		            <img src="images/labuanbajo.jpg" alt="Labuan Bajo">
-		            <h3>Labuan Bajo</h3>
+		            <img src="images/labuanbajo9.jpg" alt="Labuan Bajo">
 		        </a>
 		    </div>
 		    <div class="attraction-card">
 		        <a href="attraction10.jsp">
-		            <img src="images/prambanan.jpg" alt="Prambanan Temple">
-		            <h3>Prambanan Temple</h3>
+		            <img src="images/prambanan10.jpg" alt="Prambanan Temple">
 		        </a>
 		    </div>
 		</div>

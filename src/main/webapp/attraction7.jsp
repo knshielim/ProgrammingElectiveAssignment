@@ -10,7 +10,7 @@
 		<jsp:include page="header.jsp"/>
 		
 	    <h1>Monas National Monument</h1>
-	    <img src="images/monas.jpg" class="img-size" alt="Monas">
+	    <img src="images/monas7.jpg" class="img-size" alt="Monas">
 	    <h4><i>A symbol of Indonesia's independence in the heart of Jakarta.</i></h4>
 	    <p>
 	    	Monas, short for Monumen Nasional, is an iconic landmark located in the heart of Jakarta. 

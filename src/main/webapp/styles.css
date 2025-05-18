@@ -1,50 +1,217 @@
 @charset "UTF-8";
 
-/*====================================== NAVIGATION ================================*/
-
-
-/*=====================================================================================*/
-
-/*====================================== BUTTON ======================================*/
-
-
-/*=====================================================================================*/
-
-
-body {
-    
-    background-color: #f0f8ff;
+/*====================================== GLOBAL STYLES ================================*/
+* {
     margin: 0;
-    padding: 0 10px;
-    line-height: 1.6;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.offers {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
-    padding: 40px 10%;
-    max-width: 1200px;
-    margin: auto;
+body {
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
 }
 
 h1, h2 {
     text-align: center;
-    color: #333;
+    color: #1D3D59;
+    margin: 20px 0;
+}
+
+h3 {
+    color: #ff4d00;
 }
 
 p {
     text-align: center;
     color: #555;
+    margin-bottom: 15px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-size {
+    max-width: 800px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/*====================================== NAVIGATION ================================*/
+.header {
+    background-color: #1D3D59;
+    color: white;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #8DD5F2;
+}
+
+.contact-btn {
+    background-color: #ff6b00;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #ff4d00;
+    transform: scale(1.05);
+}
+
+/*====================================== HERO SECTION ======================================*/
+.hero {
+    background: linear-gradient(rgba(29,61,89,0.7), rgba(29,61,89,0.7)), url('images/travel.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 5%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.hero-image {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.hero-image img {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    max-width: 100%;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 12px 34px;
+    font-size: 16px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.8s;
+}
+
+.hero-btn:hover {
+    border: 2px solid #8DD5F2;
+    background: #8DD5F2;
+    font-weight: 700;
+    color: #1D3D59;
+}
+
+/*====================================== CONTENT BLOCKS ======================================*/
+.offers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 40px 5%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.block {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.block:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.block h3 {
+    margin-bottom: 15px;
+    color: #1D3D59;
+}
+
+/*====================================== ATTRACTIONS ======================================*/
 .attractions {
-	
-	
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
-    padding: 20px;
+    padding: 20px 5%;
     max-width: 1200px;
     margin: auto;
 }
@@ -60,6 +227,7 @@ p {
     overflow: hidden;
     display: flex;            
     flex-direction: column;
+    height: 100%;
 }
 
 .card:hover {
@@ -70,7 +238,6 @@ p {
 .card img {
     width: 100%;
     height: 200px;
-    /*border: 4px solid #ff6b00;*/
     border-radius: 8px;
     margin-bottom: 10px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
@@ -91,72 +258,48 @@ p {
 
 .card a {
     margin-top: auto;
-    background-color: #FFF;
+    background-color: #ff6b00;
     color: white;
-    padding: 6px 12px;
+    padding: 8px 16px;
     border-radius: 6px;
     text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
     transition: background-color 0.3s ease;
 }
 
 .card a:hover {
-    background-color: #005fa3;
+    background-color: #ff4d00;
 }
 
-.hero-btn{
-	display: inline-block;
-	text-decoration: none;
-	color: #fff;
-	border: 1px solid #fff;
-	padding: 12px 34px;
-	font-size: 13px;
-	background: transparent;
-	position: relative;
-	cursor: pointer;
-}
-
-.hero-btn:hover{
-	border: 1px solid #8DD5F2;
-	background: #8DD5F2;
-	transition: 0.8s; /* Biar ada transisi */
-	font-weight: 700;
-	color: #1D3D59;
-}
-
-
-
-/*====================================== attraction.jsp ================================*/
-
+/*====================================== ATTRACTIONS GRID ================================*/
 .attractions-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-
-    grid-template-rows: repeat(5, auto);
-    gap: 20px;
-
-    max-width: 900px;  
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    max-width: 1200px;  
     margin: 40px auto;  
-    padding: 0 20px;
+    padding: 0 5%;
 }
-
 
 .attraction-card {
     background-color: #ffffff;
-    border: 4px solid #243c96;
+    border: 3px solid #1D3D59;
     border-radius: 12px;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.2s;
+    transition: transform 0.3s;
     display: flex;
     flex-direction: column;
     overflow: hidden;
 }
 
 .attraction-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+    border-color: #ff6b00;
 }
-
 
 .attraction-card img {
     width: 100%;
@@ -164,17 +307,16 @@ p {
     object-fit: cover;    
     object-position: center;
     border-radius: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
 }
 
-
 .attraction-card h3 {
     margin: 0 0 10px;
-    color: #ff4d00;
+    color: #1D3D59;
     font-size: 1.2rem;
+    text-align: center;
 }
-
 
 .attraction-card a {
     color: inherit;
@@ -184,14 +326,171 @@ p {
     height: 100%;
 }
 
-
-.attraction-card a h3 {
-    margin-top: auto; 
+/*====================================== ABOUT PAGE ================================*/
+.about-container {
+    background-color: white;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 1000px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
+.about-container h2 {
+    color: #1D3D59;
+    border-bottom: 2px solid #ff6b00;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
 
-.attraction-card a p {
-    margin-top: 8px;
-    color: #333;
-    font-size: 0.95rem;
+.about-container h3 {
+    color: #ff6b00;
+    margin: 15px 0 10px;
+}
+
+.about-container img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.about-container ul {
+    padding-left: 20px;
+    margin: 15px 0;
+}
+
+.about-container li {
+    margin-bottom: 10px;
+}
+
+.about-highlight {
+    background-color: #f0f8ff;
+    border-left: 5px solid #ff6b00;
+    padding: 15px;
+    margin: 20px 0;
+    font-style: italic;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/*====================================== CONTACT FORM ================================*/
+form {
+    background-color: white;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+form label {
+    font-weight: bold;
+    color: #1D3D59;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #ff6b00;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ff4d00;
+}
+
+/*====================================== FOOTER ================================*/
+.footer {
+    background-color: #1D3D59;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer p {
+    color: white;
+    margin: 0;
+}
+
+/*====================================== ATTRACTION DETAIL PAGES ================================*/
+h1 {
+    color: #1D3D59;
+    margin: 30px 0 15px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.attraction1-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.attraction1-container p {
+    margin-bottom: 30px;
+}
+
+.attraction1-container a {
+    margin: 0 10px;
+    color: #ff6b00;
+    text-decoration: none;
+}
+
+.attraction1-container a:hover {
+    text-decoration: underline;
+}
+
+/*====================================== RESPONSIVE DESIGN ================================*/
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .logo {
+        margin-bottom: 15px;
+        height: 40px;
+    }
+    
+    .nav-links {
+        margin: 15px 0;
+    }
+    
+    .hero {
+        padding: 40px 15px;
+    }
+    
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+    
+    .attractions-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .about-container {
+        padding: 20px;
+    }
 }

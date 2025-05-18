@@ -5,7 +5,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Home - Halabo Indonesia Tour</title>
-		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/styles.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 	<body>
 		<jsp:include page="header.jsp"/>
@@ -91,26 +91,25 @@
 		
 		<div class="attractions">
 		    <div class="card">
-		        <img src="images/borobudur.jpg" alt="Borobudur Temple">
-		        <h3>1. Borobudur Temple</h3>
+		        <img src="images/borobudur1.jpg" alt="Borobudur Temple">
+		        
 		        <p>The world’s largest Buddhist temple, rich with ancient history.</p>
 		        <a href="attraction1.jsp">Read More</a>
 		    </div>
 		    <div class="card">
-		        <img src="images/bali.jpg" alt="Bali Island">
-		        <h3>2. Bali Island</h3>
+		        <img src="images/bali2.jpg" alt="Bali Island">
 		        <p>Beautiful beaches, temples, and a unique spiritual vibe.</p>
 		        <a href="attraction2.jsp">Read More</a>
 		    </div>
 		    <div class="card">
-		        <img src="images/rajaampat.jpg" alt="Raja Ampat">
-		        <h3>3. Raja Ampat</h3>
+		        <img src="images/rajaampat3.jpg" alt="Raja Ampat">
+		        
 		        <p>A diver’s paradise with stunning marine biodiversity.</p>
 		        <a href="attraction3.jsp">Read More</a>
 		    </div>
 		    <div class="card">
-		        <img src="images/bromo.jpg" alt="Mount Bromo">
-		        <h3>4. Mount Bromo</h3>
+		        <img src="images/bromo4.jpg" alt="Mount Bromo">
+		       
 		        <p>Witness a sunrise over one of Indonesia’s iconic volcanoes.</p>
 		        <a href="attraction4.jsp">Read More</a>
 		    </div>

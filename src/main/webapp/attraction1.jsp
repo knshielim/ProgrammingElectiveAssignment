@@ -10,7 +10,7 @@
 		<jsp:include page="header.jsp"/>
 		
 	    <h1>Borobudur Temple</h1>
-	    <img src="images/borobudur.jpg" class="img-size" alt="Borobudur Temple">
+	    <img src="images/borobudur1.jpg" class="img-size" alt="Borobudur Temple">
 	    <h4><i>The world’s largest Buddhist temple, rich with ancient history.</i></h4>
 	    <p>
 	    	Borobudur Temple is the world’s largest Buddhist temple and a UNESCO World Heritage Site located in Central Java, Indonesia. 

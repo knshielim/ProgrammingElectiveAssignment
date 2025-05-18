@@ -1,8 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
 <div class="header"> 
 	<div class="logo">
-		<img src="images/Halab.jpg" alt="Halabo Logo">
+		<img src="images/Halabo.jpg" alt="Halabo Logo">
       		<span>Halabo</span>
 	</div>
 	<ul class="nav-links">

@@ -10,7 +10,7 @@
 		<jsp:include page="header.jsp"/>
 		
 	    <h1>Bali Island</h1>
-	    <img src="images/bali.jpg" class="img-size" alt="Bali Island">
+	    <img src="images/bali2.jpg" class="img-size" alt="Bali Island">
 	    <h4><i>Beautiful beaches, temples, and a unique spiritual vibe.</i></h4>
 	    <p>
 		    Bali is Indonesia’s most popular tourist island, known for its breathtaking beaches, vibrant culture, and picturesque rice terraces. 

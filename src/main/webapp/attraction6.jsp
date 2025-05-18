@@ -10,7 +10,7 @@
 		<jsp:include page="header.jsp"/>
 		
 	    <h1>Pulau Seribu</h1>
-	    <img src="images/pulauseribu.jpg" class="img-size" alt="Pulau Seribu">
+	    <img src="images/pulauseribu6.jpg" class="img-size" alt="Pulau Seribu">
 	    <h4><i>A chain of tropical islands near Jakarta, perfect for snorkeling and beach getaways.</i></h4>
 	    <p>
 	    	Pulau Seribu, or the Thousand Islands, is a chain of tropical islands stretching north of Jakarta in the Java Sea. 
