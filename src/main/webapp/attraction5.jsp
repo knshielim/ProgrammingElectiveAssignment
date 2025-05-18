@@ -18,7 +18,9 @@
 	    	At its center lies Samosir Island, a cultural heartland of the Batak people. 
 	    	Tourists can enjoy scenic boat rides, explore traditional Batak villages, soak in hot springs, and admire the tranquil natural surroundings.
 		</p>
-	    <a href="home.jsp">Back to Home</a>
+	   	<a href="attraction4.jsp">< Previous</a>
+		<a href="home.jsp">Back to Home</a>
+		<a href="attraction6.jsp">Next ></a>
 	    
 	    <jsp:include page="footer.jsp"/>
 	</body>

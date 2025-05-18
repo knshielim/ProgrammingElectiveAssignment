@@ -18,7 +18,9 @@
 	    	It is decorated with over 2,600 relief panels and 504 Buddha statues, making it one of the most intricately designed ancient structures in the world. 
 	    	Visitors can climb to the top of the temple for panoramic views of the surrounding hills and lush forests.
 		</p>
+		<a href="attraction10.jsp">< Previous</a>
 	    <a href="home.jsp">Back to Home</a>
+	    <a href="attraction2.jsp">Next ></a>
 	    
 	    <jsp:include page="footer.jsp"/>
 	</body>

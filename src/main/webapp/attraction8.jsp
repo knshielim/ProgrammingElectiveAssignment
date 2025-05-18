@@ -18,7 +18,9 @@
 	    	Visitors can trek through the island with guides to observe the dragons and enjoy world-class diving sites teeming with marine biodiversity. 
 	    	The unique ecosystem and scenery make it a true natural wonder.
 		</p>
-	    <a href="home.jsp">Back to Home</a>
+	   	<a href="attraction7.jsp">< Previous</a>
+		<a href="home.jsp">Back to Home</a>
+		<a href="attraction9.jsp">Next ></a>
 	    
 	    <jsp:include page="footer.jsp"/>
 	</body>

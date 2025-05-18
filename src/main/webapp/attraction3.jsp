@@ -18,7 +18,9 @@
 	    	Divers and snorkelers from around the globe flock to Raja Ampat for its vibrant coral reefs and exotic marine life, including manta rays, reef sharks, and sea turtles. 
 	    	The islands also feature lush jungles and limestone karsts, offering adventure seekers plenty to explore both above and below the waterline.
 		</p>
-	    <a href="home.jsp">Back to Home</a>
+	   	<a href="attraction2.jsp">< Previous</a>
+		<a href="home.jsp">Back to Home</a>
+		<a href="attraction4.jsp">Next ></a>
 	    
 	    <jsp:include page="footer.jsp"/>
 	</body>

@@ -18,7 +18,9 @@
 		    The island also offers world-class surfing, diving, and snorkeling opportunities. 
 		    With its rich artistic heritage and spiritual atmosphere, Bali provides an unforgettable travel experience for every kind of traveler.
 		</p>
-	    <a href="home.jsp">Back to Home</a>
+		<a href="attraction1.jsp">< Previous</a>
+		<a href="home.jsp">Back to Home</a>
+		<a href="attraction3.jsp">Next ></a>
 	    
 	    <jsp:include page="footer.jsp"/>
 	</body>

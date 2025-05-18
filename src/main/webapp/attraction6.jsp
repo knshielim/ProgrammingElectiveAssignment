@@ -19,7 +19,9 @@
 	    	Many islands have eco-resorts and cultural heritage sites, such as the colonial-era buildings on Onrust Island. 
 	    	It’s a convenient escape for those seeking serenity and marine adventures close to the capital city.
 		</p>
-	    <a href="home.jsp">Back to Home</a>
+	   	<a href="attraction5.jsp">< Previous</a>
+		<a href="home.jsp">Back to Home</a>
+		<a href="attraction7.jsp">Next ></a>
 	    
 	    <jsp:include page="footer.jsp"/>
 	</body>

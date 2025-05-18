@@ -19,7 +19,9 @@
 	    	Visitors can take an elevator to the top for panoramic views of the capital. 
 	    	The monument also houses a museum that showcases Indonesia’s rich history, making it both a symbol of national pride and a center of education.
 		</p>
-	    <a href="home.jsp">Back to Home</a>
+	   	<a href="attraction6.jsp">< Previous</a>
+		<a href="home.jsp">Back to Home</a>
+		<a href="attraction8.jsp">Next ></a>
 	    
 	    <jsp:include page="footer.jsp"/>
 	</body>

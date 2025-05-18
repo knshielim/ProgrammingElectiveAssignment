@@ -18,7 +18,9 @@
 			Once a sleepy fishing village, Labuan Bajo has transformed into a vibrant tourist hub with upscale resorts, dive centers, and restaurants. 
 			From here, visitors can embark on boat tours to see the Komodo dragons, snorkel in pristine coral reefs, and admire the beauty of Padar Island’s viewpoints.
 		</p>
-	    <a href="home.jsp">Back to Home</a>
+	   	<a href="attraction8.jsp">< Previous</a>
+		<a href="home.jsp">Back to Home</a>
+		<a href="attraction10.jsp">Next ></a>
 	    
 	    <jsp:include page="footer.jsp"/>
 	</body>

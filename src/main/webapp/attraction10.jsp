@@ -18,7 +18,9 @@
 			The main temple stands at 47 meters tall and is surrounded by smaller temples adorned with detailed bas-reliefs. 
 			Prambanan is a UNESCO World Heritage Site and is also a venue for traditional dance performances held under the moonlight, adding to its mystical charm.
 		</p>
-	    <a href="home.jsp">Back to Home</a>
+	   	<a href="attraction9.jsp">< Previous</a>
+		<a href="home.jsp">Back to Home</a>
+		<a href="attraction1.jsp">Next ></a>
 	    
 	    <jsp:include page="footer.jsp"/>
 	</body>

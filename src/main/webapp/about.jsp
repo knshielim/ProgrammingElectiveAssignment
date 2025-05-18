@@ -5,6 +5,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>About - Halabo Indonesia Tour</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 	<body>
 		<jsp:include page="header.jsp"/>
@@ -18,7 +19,7 @@
 		    </p>
 		
 		    <p>
-		        Our mission is to promote Indonesian tourism by offering travelers insightful information, stunning visuals, and helpful tips to make the most of their journey. 
+		        We aim to promote Indonesian tourism by offering travelers insightful information, stunning visuals, and helpful tips to make the most of their journey. 
 		        Whether you're an adventure seeker, a history buff, a nature lover, or simply someone looking for a relaxing getaway, we’ve curated attractions that cater to every kind of explorer.
 		    </p>
 		

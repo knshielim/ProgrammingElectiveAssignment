@@ -19,7 +19,9 @@
 	    	Tourists can hike or ride jeeps across the sea of volcanic sand to reach the crater's edge. 
 	    	Bromo's otherworldly landscape makes it a must-visit for nature lovers and photographers.
 		</p>
-	    <a href="home.jsp">Back to Home</a>
+	   	<a href="attraction3.jsp">< Previous</a>
+		<a href="home.jsp">Back to Home</a>
+		<a href="attraction5.jsp">Next ></a>
 	    
 	    <jsp:include page="footer.jsp"/>
 	</body>
