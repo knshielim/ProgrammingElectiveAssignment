@@ -11,7 +11,7 @@
 
 		<div class="about-container">
 		    <h2>About Halabo Indonesia Tour</h2>
-		
+			<img src="images/indonesia.jpg" alt="Indonesia">
 		    <p>
 		        Welcome to <strong>Halabo Indonesia Tour</strong> – your virtual gateway to exploring the rich beauty and culture of Indonesia. 
 		        Our platform is designed to showcase the country's most iconic and breathtaking tourist destinations, from majestic temples and volcanoes to pristine beaches and cultural heritage sites.

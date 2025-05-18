@@ -11,9 +11,70 @@
 		<jsp:include page="header.jsp"/>
 		
 		<h1>Welcome to Halabo Indonesia Tour</h1>
-		<p>Discover the most breathtaking destinations across Indonesia!</p>
+		<img src="images/travel.jpg" alt="Travel">
+		<p>
+			We believe that every destination in Indonesia holds a story waiting to be discovered.
+			From pristine beaches and tropical islands to ancient temples and vibrant cities,
+			we are passionate about showcasing the beauty, culture, and adventure that define Indonesia.
+			
+			Our mission is to offer you unforgettable experiences with personalized journeys
+			across this archipelago of wonders.
+		</p>
 		
-		<h2>Top Attractions</h2>
+		<h2>What We Offer</h2>
+		<div class="offers">
+		    <div class="block">
+				<h3>Island Escapes</h3>
+				<p>
+					Explore Indonesia’s stunning islands like Bali, Lombok, and the Thousand Islands.
+					Immerse yourself in crystal-clear waters, white sand beaches, and island charm.
+				</p>
+			</div>
+			<div class="block">
+				<h3>Cultural Journeys</h3>
+				<p>
+					Step into the past with visits to heritage sites such as Borobudur and Prambanan.
+					Experience Indonesia’s rich traditions, architecture, and spiritual stories.
+				</p>
+			</div>
+			<div class="block">
+				<h3>Adventure Trails</h3>
+				<p>
+					Trek up Mount Bromo or dive into the Komodo waters.
+					Indonesia is perfect for thrill-seekers and nature lovers alike.
+				</p>
+			</div>
+			<div class="block">
+				<h3>Nature Retreats</h3>
+				<p>
+					Unwind at Lake Toba or Raja Ampat and embrace Indonesia’s serene landscapes.
+					A perfect escape into nature’s tranquility and biodiversity.
+				</p>
+			</div>
+			<div class="block">
+				<h3>City Discoveries</h3>
+				<p>
+					Discover the heartbeat of Indonesia in cities like Jakarta and Yogyakarta.
+					From skyscrapers to street food, experience the fusion of modern and traditional life.
+				</p>
+			</div>
+			<div class="block">
+				<h3>Custom Tours</h3>
+				<p>
+					Want something special?
+					We craft custom itineraries tailored to your group’s interests, from romantic honeymoons to family vacations.
+				</p>
+			</div>
+		</div>		
+		
+		<h2>Our Gallery</h2>
+		<p>
+			Explore the beauty of Indonesia through our vibrant gallery.
+			From the majestic temples of Java to the turquoise waters of Raja Ampat,
+			each photo tells a story of culture, nature, and adventure.			
+			Dive into the visual journey and discover why Indonesia is a destination like no other.
+		</p>
+		
 		<div class="attractions">
 		    <div class="card">
 		        <img src="images/borobudur.jpg" alt="Borobudur Temple">
