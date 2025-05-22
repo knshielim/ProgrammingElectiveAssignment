@@ -12,16 +12,22 @@
 	    <h1>Pulau Seribu</h1>
 	    <img src="images/pulauseribu6.jpg" class="img-size" alt="Pulau Seribu">
 	    <h4><i>A chain of tropical islands near Jakarta, perfect for snorkeling and beach getaways.</i></h4>
-	    <p>
-	    	Pulau Seribu, or the Thousand Islands, is a chain of tropical islands stretching north of Jakarta in the Java Sea. 
-	    	These islands are ideal for weekend getaways, offering pristine beaches, coral reefs, and clear blue waters. 
-	    	Popular activities include snorkeling, scuba diving, and island hopping. 
-	    	Many islands have eco-resorts and cultural heritage sites, such as the colonial-era buildings on Onrust Island. 
-	    	It’s a convenient escape for those seeking serenity and marine adventures close to the capital city.
-		</p>
-	   	<a href="attraction5.jsp">< Previous</a>
-		<a href="home.jsp">Back to Home</a>
-		<a href="attraction7.jsp">Next ></a>
+	   
+	   <section class="about-p">
+		    <p>
+		    	Pulau Seribu, or the Thousand Islands, is a chain of tropical islands stretching north of Jakarta in the Java Sea. 
+		    	These islands are ideal for weekend getaways, offering pristine beaches, coral reefs, and clear blue waters. 
+		    	Popular activities include snorkeling, scuba diving, and island hopping. 
+		    	Many islands have eco-resorts and cultural heritage sites, such as the colonial-era buildings on Onrust Island. 
+		    	It’s a convenient escape for those seeking serenity and marine adventures close to the capital city.
+			</p>
+		</section>
+
+		<section class="bottom-nav">
+		   	<a href="attraction5.jsp">< Previous</a>
+			<a href="home.jsp">Back to Home</a>
+			<a href="attraction7.jsp">Next ></a>
+		</section>
 	    
 	    <jsp:include page="footer.jsp"/>
 	</body>

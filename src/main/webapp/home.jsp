@@ -4,6 +4,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Home - Halabo Indonesia Tour</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
@@ -24,16 +25,20 @@
 		    </div>
 		</section>
 		
-		<h1>Welcome to Halabo Indonesia Tour</h1>
-		<img src="images/travel.jpg" alt="Travel">
-		<p>
-			We believe that every destination in Indonesia holds a story waiting to be discovered.
-			From pristine beaches and tropical islands to ancient temples and vibrant cities,
-			we are passionate about showcasing the beauty, culture, and adventure that define Indonesia.
+		<section class="title">
+		
+			<h1>Welcome to Halabo Indonesia Tour</h1>
 			
-			Our mission is to offer you unforgettable experiences with personalized journeys
-			across this archipelago of wonders.
-		</p>
+			<p>
+				We believe that every destination in Indonesia holds a story waiting to be discovered.
+				From pristine beaches and tropical islands to ancient temples and vibrant cities,
+				we are passionate about showcasing the beauty, culture, and adventure that define Indonesia.
+				
+				Our mission is to offer you unforgettable experiences with personalized journeys
+				across this archipelago of wonders.
+			</p>
+			
+		</section>
 		
 		<h2>What We Offer</h2>
 		<div class="offers">
@@ -81,43 +86,49 @@
 			</div>
 		</div>		
 		
-		<h2>Our Gallery</h2>
-		<p>
-			Explore the beauty of Indonesia through our vibrant gallery.
-			From the majestic temples of Java to the turquoise waters of Raja Ampat,
-			each photo tells a story of culture, nature, and adventure.			
-			Dive into the visual journey and discover why Indonesia is a destination like no other.
-		</p>
-		
-		<div class="attractions">
-		    <div class="card">
-		        <img src="images/borobudur1.jpg" alt="Borobudur Temple">
-		        
-		        <p>The world’s largest Buddhist temple, rich with ancient history.</p>
-		        <a href="attraction1.jsp">Read More</a>
-		    </div>
-		    <div class="card">
-		        <img src="images/bali2.jpg" alt="Bali Island">
-		        <p>Beautiful beaches, temples, and a unique spiritual vibe.</p>
-		        <a href="attraction2.jsp">Read More</a>
-		    </div>
-		    <div class="card">
-		        <img src="images/rajaampat3.jpg" alt="Raja Ampat">
-		        
-		        <p>A diver’s paradise with stunning marine biodiversity.</p>
-		        <a href="attraction3.jsp">Read More</a>
-		    </div>
-		    <div class="card">
-		        <img src="images/bromo4.jpg" alt="Mount Bromo">
-		       
-		        <p>Witness a sunrise over one of Indonesia’s iconic volcanoes.</p>
-		        <a href="attraction4.jsp">Read More</a>
-		    </div>
-		    
-		    <br /> <br />
-		    
-			<a href="attractions.jsp" class="hero-btn">Find more attractions here!</a>
-		</div>
+		<section class="attraction-title">
+			<h2>Our Gallery</h2>
+			
+			<p>
+				Explore the beauty of Indonesia through our vibrant gallery.
+				From the majestic temples of Java to the turquoise waters of Raja Ampat,
+				each photo tells a story of culture, nature, and adventure.			
+				Dive into the visual journey and discover why Indonesia is a destination like no other.
+			</p>
+		</section>
+			
+			<div class="attractions">
+			    <div class="card">
+			        <img src="images/borobudur1.jpg" alt="Borobudur Temple">
+			        
+			        <p>The world’s largest Buddhist temple, rich with ancient history.</p>
+			        <a href="attraction1.jsp">Read More</a>
+			    </div>
+			    <div class="card">
+			        <img src="images/bali2.jpg" alt="Bali Island">
+			        <p>Beautiful beaches, temples, and a unique spiritual vibe.</p>
+			        <a href="attraction2.jsp">Read More</a>
+			    </div>
+			    <div class="card">
+			        <img src="images/rajaampat3.jpg" alt="Raja Ampat">
+			        
+			        <p>A diver’s paradise with stunning marine biodiversity.</p>
+			        <a href="attraction3.jsp">Read More</a>
+			    </div>
+			    <div class="card">
+			        <img src="images/bromo4.jpg" alt="Mount Bromo">
+			       
+			        <p>Witness a sunrise over one of Indonesia’s iconic volcanoes.</p>
+			        <a href="attraction4.jsp">Read More</a>
+			    </div>
+			    
+			    <br /> <br />
+			</div>    
+			
+
+			<div class="button-container">
+				<a href="attractions.jsp" class="hero-btn">Find more attractions here!</a>
+			</div>
 		
 		<jsp:include page="footer.jsp"/>
 	</body>
