@@ -5,13 +5,14 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Monas - Halabo Indonesia Tour</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 	<body>
 		<jsp:include page="header.jsp"/>
 		
 	    <h1>Monas National Monument</h1>
 	    <img src="images/monas7.jpg" class="img-size" alt="Monas">
-	    <h4><i>A symbol of Indonesia's independence in the heart of Jakarta.</i></h4>
+	   	<h4><i>A symbol of Indonesia's independence in the heart of Jakarta.</i></h4>
 	    
 	    <section class="about-p">
 		    <p>

@@ -6,6 +6,7 @@
 		<meta charset="UTF-8">
 		<title>About - Halabo Indonesia Tour</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 	</head>
 	<body>
 		<jsp:include page="header.jsp"/>
@@ -49,17 +50,29 @@
 		</div>
 		
 		<div class="about-container">
-		    <h2>Our Vision, Mission and Values</h2>
-		    <h3>Our Mission</h3>
-			<p>
-				To deliver meaningful travel experiences that connect people with the heart and soul of Indonesia.
-				We are committed to sustainability, personalization, and cultural respect in everything we do.
-			</p>
-			<h3>Our Vision</h3>
-			<p>
-				To be Southeast Asia’s most trusted tour company, recognized for redefining authentic travel with innovation, eco-conscious values, and heartfelt hospitality.
-			</p>
-			<h3>Our Values</h3>
+		    <h2>Our Vision & Mission</h2>
+		    <div class="vm-grid">
+		        <div class="vm-box">
+		            <div class="vm-icon"><i class="fas fa-bullseye"></i></div>
+		            <h3>Our Mission</h3>
+		            <p>
+		                To deliver meaningful travel experiences that connect people with the heart and soul of Indonesia.
+		                We are committed to sustainability, personalization, and cultural respect in everything we do.
+		            </p>
+		        </div>
+		        <div class="vm-box">
+		            <div class="vm-icon"><i class="fas fa-globe-asia"></i></div>
+		            <h3>Our Vision</h3>
+		            <p>
+		                To be Southeast Asia’s most trusted tour company, recognized for redefining authentic travel with innovation,
+		                eco-conscious values, and heartfelt hospitality.
+		            </p>
+		        </div>
+		    </div>
+		</div>
+		
+		<div class="about-container">
+			<h2>Our Values</h2>
 			<ul>
 				<li><strong>Cultural Connection</strong> – Every journey is a story. We respect and uplift local traditions and voices.</li>
 				<li><strong>Sustainability</strong> – We promote eco-friendly practices to protect Indonesia’s natural beauty.</li>
@@ -68,6 +81,7 @@
 				<li><strong>Innovation</strong> – We embrace creativity and technology to elevate the travel experience.</li>
 				<li><strong>Community Support</strong> – We partner with local guides, artisans, and businesses to ensure tourism benefits local communities.</li>
 			</ul>
+			
 		</div>
 			
 		<jsp:include page="footer.jsp"/>
