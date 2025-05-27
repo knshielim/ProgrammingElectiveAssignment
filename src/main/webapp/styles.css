@@ -12,6 +12,7 @@ body {
     padding: 0;
     line-height: 1.6;
     color: #333;
+    overflow-x:hidden;
 }
 
 h1, h2 {
@@ -45,6 +46,15 @@ img {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+@media(max-width: 700px){
+	
+	.img-size {
+		max-width: 80vw;
+		width: 500px;
+	}
+	
+}
+
 /*====================================== NAVIGATION ================================*/
 .header {
     background-color: #1D3D59;
@@ -65,8 +75,9 @@ img {
 }
 
 .logo img {
-    height: 40px;
-    margin-right: 10px;
+    height: 30px;
+    margin-left: 0px;
+    width: 100%;
 }
 
 .logo span {
@@ -79,9 +90,14 @@ img {
     list-style: none;
 }
 
-.nav-links li {
-    margin: 0 15px;
+
+.nav-links ul li{
+	list-style: none;
+	display: inline-block; /* Biar listnya jadi horizontal */
+	padding: 8px 12px;
+	position: relative;
 }
+
 
 .nav-links a {
     color: white;
@@ -109,6 +125,65 @@ img {
     transform: scale(1.05);
 }
 
+.header .fa{
+	display: none; /* Display: None biar iconnya gak keliatan pas di layar normal */
+}
+
+.nav-links .fas{
+	display: none; /* Display: None biar iconnya gak keliatan pas di layar normal */
+}
+
+@media(max-width: 700px){
+	
+	 .nav-links {
+        position: fixed;
+        background: #1D3D59;
+        height: 100vh;
+        width: 170px;
+        top: 0;
+        right: -200px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 60px 20px;
+        z-index: 999;
+        transition: 0.5s;
+    }
+
+    .nav-links li {
+        margin: 20px 0;
+    }
+
+    .nav-links .fas {
+        display: block;
+        font-size: 22px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .header .fa-bars {
+        display: block;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+
+    .logo span {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    
+    
+    .contact-btn{
+    	margin-top: 20px;
+    }
+   
+	
+}
 /*====================================== HERO SECTION ======================================*/
 .hero {
     background: linear-gradient(rgba(29,61,89,0.7), rgba(29,61,89,0.7)), url('images/Hero_BG.jpg');
@@ -181,6 +256,12 @@ img {
 	margin: 25px 120px 75px;
 }
 
+@media(max-width: 700px){
+	.title p{
+		margin: 25px 80px 75px;		
+	}
+	
+}
 
 /*====================================== CONTENT BLOCKS ======================================*/
 .offers {
@@ -262,6 +343,19 @@ img {
     
 }
 
+@media(max-width: 700px){
+
+	.card img {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    object-position: center;
+}
+}
+
 .card h3 {
     margin: 10px 0 5px;
     color: #ff4d00;
@@ -314,6 +408,15 @@ img {
 	margin: 25px 215px 75px;
 	text-align: justify
 }
+
+@media(max-width: 700px){
+	
+	.about-p p{
+		margin: 25px 50px 75px;
+		text-align: justify
+	}
+
+	}
 
 .bottom-nav {
     display: flex;
@@ -375,6 +478,21 @@ img {
     margin-bottom: 15px;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
 }
+
+@media(max-width: 700px){
+	.attraction-card img {
+	    width: 100%;
+	    height: 400px;          
+	    object-fit: cover;    
+	    object-position: center;
+	    border-radius: 8px;
+	    margin-bottom: 15px;
+	    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+	}
+	
+	}
+
+
 
 .attraction-card h3 {
     margin: 0 0 10px;

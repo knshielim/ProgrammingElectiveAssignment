@@ -6,6 +6,7 @@
 		<meta charset="UTF-8">
 		<title>Monas - Halabo Indonesia Tour</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
 		<jsp:include page="header.jsp"/>
