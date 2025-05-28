@@ -12,6 +12,7 @@
 		<jsp:include page="header.jsp"/>
 		
 	    <h1>Monas National Monument</h1>
+	    <p> <i>Tuesday, 4 March 2025</i><br><br>
 	    <img src="images/monas7.jpg" class="img-size" alt="Monas">
 	   	<h4><i>A symbol of Indonesia's independence in the heart of Jakarta.</i></h4>
 	    

@@ -11,6 +11,7 @@
 		<jsp:include page="header.jsp"/>
 		
 	    <h1>Lake Toba</h1>
+	    <p> <i>Wednesday, 20 November 2024</i><br><br>
 	    <img src="images/toba5.jpg" class="img-size" alt="Lake Toba">
 	    <h4><i>The largest volcanic lake in the world, nestled in North Sumatra.</i></h4>
 	   

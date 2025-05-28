@@ -11,6 +11,7 @@
 		<jsp:include page="header.jsp"/>
 		
 	    <h1>Bali Island</h1>
+	    <p> <i>Friday, 16 February 2024</i><br><br>
 	    <img src="images/bali2.jpg" class="img-size" alt="Bali Island">
 	    <h4><i>Beautiful beaches, temples, and a unique spiritual vibe.</i></h4>
 	    

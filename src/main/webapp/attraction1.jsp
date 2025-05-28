@@ -11,6 +11,7 @@
 		<jsp:include page="header.jsp"/>
 		
 	    <h1>Borobudur Temple</h1>
+	    <p> <i>Monday, 13 January 2025</i><br><br>
 	    <img src="images/borobudur1.jpg" class="img-size" alt="Borobudur Temple">
 	    <h4><i>The world’s largest Buddhist temple, rich with ancient history.</i></h4>
 	    

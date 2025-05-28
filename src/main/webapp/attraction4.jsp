@@ -11,6 +11,7 @@
 		<jsp:include page="header.jsp"/>
 		
 	    <h1>Mount Bromo</h1>
+	    <p> <i>Monday, 16 December 2024</i><br><br>
 	    <img src="images/bromo4.jpg" class="img-size" alt="Mount Bromo">
 	    <h4><i>Witness a sunrise over one of Indonesia’s iconic volcanoes.</i></h4>
 	    

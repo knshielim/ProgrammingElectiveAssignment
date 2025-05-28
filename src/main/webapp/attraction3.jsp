@@ -11,6 +11,7 @@
 		<jsp:include page="header.jsp"/>
 		
 	    <h1>Raja Ampat</h1>
+	    <p> <i>Friday, 7 February 2025</i><br><br>
 	    <img src="images/rajaampat3.jpg" class="img-size" alt="Raja Ampat">
 	    <h4><i>A diver’s paradise with stunning marine biodiversity.</i></h4>
 	    

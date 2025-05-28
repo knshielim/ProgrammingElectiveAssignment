@@ -11,6 +11,7 @@
 		<jsp:include page="header.jsp"/>
 		
 	    <h1>Prambanan Temple</h1>
+	    <p> <i>Thursday, 27 October 2022</i><br><br>
 	    <img src="images/prambanan10.jpg" class="img-size" alt="Prambanan Temple">
 	    <h4><i>A majestic Hindu temple complex with stunning architecture and history.</i></h4>
 	    

@@ -11,6 +11,7 @@
 		<jsp:include page="header.jsp"/>
 		
 	    <h1>Labuan Bajo</h1>
+	    <p> <i>Wednesday, 10 April 2024</i><br><br>
 	    <img src="images/labuanbajo9.jpg" class="img-size" alt="Labuan Bajo">
 	    <h4><i>A charming harbor town and gateway to Komodo National Park.</i></h4>
 	    
